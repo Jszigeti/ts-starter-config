@@ -1,0 +1,9 @@
+{
+  "watch": ["src"],
+  "ext": ".ts",
+  "ignore": ["build"],
+  "exec": "npm run build && node build/index.js",
+  "events": {
+    "restart": "echo 'App restarted due to changes'"
+  }
+}
