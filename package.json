@@ -5,8 +5,8 @@
   "main": "index.ts",
   "scripts": {
     "build": "tsc",
-    "start:prod": "tsc && node build/index.js",
-    "start:dev": "npx nodemon"
+    "start:prod": "tsc && node dist/index.js",
+    "start:dev": "nodemon --config nodemon.json"
   },
   "author": "Jonas Szigeti",
   "license": "MIT",

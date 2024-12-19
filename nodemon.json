@@ -1,8 +1,8 @@
 {
   "watch": ["src"],
   "ext": ".ts",
-  "ignore": ["build"],
-  "exec": "npm run build && node build/index.js",
+  "ignore": ["dist"],
+  "exec": "ts-node src/index.ts",
   "events": {
     "restart": "echo 'App restarted due to changes'"
   }
